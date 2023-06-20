@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -153,6 +154,16 @@ a {
   margin-top: 70px;
   justify-content: space-between;
   align-items: center;
+}
+.clients .images a {
+  display: flex;
+  padding: 0 42px;
+  height: 90px;
+  align-items: center;
+  border-radius: 12px;
+}
+.clients .images a:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 .guides {
   margin-top: 40px;
@@ -577,4 +588,141 @@ a {
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+}
+:root {
+  --black: #111;
+  --white: #fff;
+  --green: #369e62;
+}
+
+.product-btn {
+  min-width: 150px;
+  border-radius: 12px;
+  padding: 0.6rem 1.2rem;
+  background: var(--primary-color);
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.product-btn:hover {
+  background: var(--white);
+  color: var(--black);
+}
+
+/* .....................
+*  ___#PRODUCT___
+*      PAYMENT
+*....................... */
+
+.payment {
+  width: 37.5rem;
+  height: 41.1rem;
+  border-radius: 1rem;
+  background: var(--white);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 0.6rem 3.1rem;
+  display: none;
+  flex-direction: column;
+  /* We Can use (box-shadow)_OR_(-webkit-box-shadow) */
+  /* box-shadow: 0px 0px 27px -3px rgba(0, 0, 0, 0.87); */
+  -webkit-box-shadow: 0px 0px 27px -3px rgba(0, 0, 0, 0.87);
+  box-shadow: 0px 0px 27px -3px rgba(0, 0, 0, 0.87);
+}
+
+.payment .pay-title {
+  margin-top: 8px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.19;
+  /* or 119% */
+
+  color: #000336;
+}
+
+.payment label {
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.payment .pay-input {
+  padding: 0.6rem;
+  margin: 0.6rem 0;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.payment .pay-input::placeholder {
+  color: rgb(163, 163, 163);
+}
+
+.payment .card-icons .card-icon {
+  width: 2.5rem;
+}
+
+.payment .card-icons .card-icon:first-child {
+  margin-right: 0.625rem;
+}
+
+.payment .card-icons {
+  display: flex;
+  align-items: center;
+}
+
+.payment .card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment .card-info .sm {
+  width: 25%;
+}
+
+.payment .pay-button {
+  position: absolute;
+  height: 2.5rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: none;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+  background: var(--primary-color);
+  color: var(--white);
+  cursor: pointer;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  font-size: 1.1rem;
+}
+
+.payment .pay-button:hover {
+  opacity: 0.9;
+}
+
+.payment .close {
+  width: 1.25rem;
+  height: 1.25rem;
+  padding: 0.2rem 0.3rem;
+  position: absolute;
+  background: gray;
+  color: var(--white);
+  top: 0.7rem;
+  right: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.payment .close:hover {
+  background: var(--black);
+  color: var(--white);
 }

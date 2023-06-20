@@ -10,236 +10,749 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+     <!-- Swiperjs File Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 
 <body>
-    <div class="features">
-        <div class="content">
-            <header>
-                <h2 class="sub-title">Featured Properties</h2>
-                <div class="row">
-                    <p class="desc">
-                        Everything you need to know when you're looking
-                    </p>
+    <main>
+        <div class="features">
+            <div class="content">
+                <nav class="navbar">
+                    <!-- Logo -->
+                    <img src="./assets/img/Logo.svg" alt="CeraHouse" class="logo" />
+                    <!-- Navigation -->
+                    <ul>
+                      <li><a href="#!">Home</a></li>
+                      <li><a href="#!">Features</a></li>
+                      <li><a href="#!">Services</a></li>
+                      <li><a href="#!">Resources</a></li>
+                      <li><a href="#!">Contact</a></li>
+                    </ul>
+                    <!-- Action -->
+                    <div class="actions">
+                      <a href="login.html" class="action-link">Sign in</a>
+                      <a href="login.html" class="btn action-btn">Sign up</a>
+                    </div>
+                  </nav>
+                <header>
+                    <h2 class="sub-title">Featured Properties</h2>
+                    <div class="row">
+                        <p class="desc">
+                            Everything you need to know when you're looking
+                        </p>
+    
+                    </div>
+                </header>
+                    <div class="list">
+                        <!-- Features item 1 -->
+                        <div class="item">
+                            <a href="">
+                                <img src="./assets/img/f-thumb-1" alt="" class="thumb" />
+                            </a>
+                            <div class="body">
+                                <h3 class="title">
+                                    <a href="">Villa Callisto- Ocean Front Retreat</a>
+                                </h3>
+                                <p class="desc">Tambon Bo Put, Thái Lan</p>
+    
+                                <div class="info">
+                                    <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
+                                    <span class="label">5 Beds</span>
+    
+                                    <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
+                                    <span class="label">2 both</span>
+    
+                                    <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
+                                    <span class="label">2000 Sqft</span>
+                                </div>
+                            </div>
+                            <div class="add-item-btn"> <button class="product-btn">RESERVATION!</button></a></div>
+                            <div class="payment">
+                              <h1 class="pay-title">Personal Information</h1>
+                              <label>Name and Surname</label>
+                              <input type="text" placeholder="Your Name" class="pay-input" />
+            
+                              <label>Phone Number</label>
+                              <input
+                                type="text"
+                                placeholder="0123-456-789"
+                                class="pay-input"
+                              />
+            
+                              <label>Address</label>
+                              <input
+                                type="text"
+                                placeholder="Your address"
+                                class="pay-input"
+                              />
+            
+                              <h1 class="pay-title">Card Information</h1>
+                              <div class="card-icons">
+                                <img src="./assets/img/visa.png" alt="" class="card-icon" />
+                                <img src="./assets/img/master.png" alt="" class="card-icon" />
+                              </div>
+            
+                              <input
+                                type="password"
+                                placeholder="Card Number"
+                                class="pay-input"
+                              />
+            
+                              <div class="card-info">
+                                <input type="text" placeholder="mm" class="pay-input sm" />
+                                <input
+                                  type="text"
+                                  placeholder="yyyy"
+                                  class="pay-input sm"
+                                />
+                                <input type="text" placeholder="cvv" class="pay-input sm" />
+                              </div>
+            
+                              <button class="pay-button">Checkout !</button>
+                              <span class="close">X</span>
+                            </div> 
+                        </div>
+                        <!-- Features item 2 -->
+                        <div class="item">
+                            <a href=""><img src="./assets/img/f-thumb-2.webp" alt="" class="thumb" /></a>
+                            <div class="body">
+                                <h3 class="title">
+                                    <a href="">Riverfront Alan Sea Hotel DaNang</a>
+                                </h3>
+                                <p class="desc">Mân Thái, Đà Nẵng, Việt Nam</p>
+    
+                                <div class="info">
+                                    <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
+                                    <span class="label">5 Beds</span>
+    
+                                    <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
+                                    <span class="label">2 both</span>
+    
+                                    <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
+                                    <span class="label">2000 Sqft</span>
+                                </div>
+                            </div>
+                            <div class="add-item-btn"> <button class="product-btn">RESERVATION!</button></a></div>
+                            <div class="payment">
+                              <h1 class="pay-
+                              title">Personal Information</h1>
+                              <label>Name and Surname</label>
+                              <input type="text" placeholder="Your Name" class="pay-input" />
+            
+                              <label>Phone Number</label>
+                              <input
+                                type="text"
+                                placeholder="0123-456-789"
+                                class="pay-input"
+                              />
+            
+                              <label>Address</label>
+                              <input
+                                type="text"
+                                placeholder="Your address"
+                                class="pay-input"
+                              />
+            
+                              <h1 class="pay-title">Card Information</h1>
+                              <div class="card-icons">
+                                <img src="./assets/img/visa.png" alt="" class="card-icon" />
+                                <img src="./assets/img/master.png" alt="" class="card-icon" />
+                              </div>
+            
+                              <input
+                                type="password"
+                                placeholder="Card Number"
+                                class="pay-input"
+                              />
+            
+                              <div class="card-info">
+                                <input type="text" placeholder="mm" class="pay-input sm" />
+                                <input
+                                  type="text"
+                                  placeholder="yyyy"
+                                  class="pay-input sm"
+                                />
+                                <input type="text" placeholder="cvv" class="pay-input sm" />
+                              </div>
+            
+                              <button class="pay-button">Checkout !</button>
+                              <span class="close">X</span>
+                            </div> 
+                        </div>
+                        <!-- Features item 3 -->
+                        <div class="item">
+                            <a href="">
+                                <img src="./assets/img/f-thumb-3" alt="" class="thumb" />
+                            </a>
+                            <div class="body">
+                                <h3 class="title">
+                                    <a href="">Beachfront Bungalows Restaurant</a>
+                                </h3>
+                                <p class="desc">Koh Chang Tai, Trat, Thái Lan</p>
+    
+                                <div class="info">
+                                    <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
+                                    <span class="label">5 Beds</span>
+    
+                                    <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
+                                    <span class="label">5 Both</span>
+    
+                                    <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
+                                    <span class="label">2000 Sqft</span>
+                                </div>
+                            </div>
+                            <div class="add-item-btn"> <button class="product-btn">RESERVATION!</button></a></div>
+                            <div class="payment">
+                              <h1 class="pay-
+                              title">Personal Information</h1>
+                              <label>Name and Surname</label>
+                              <input type="text" placeholder="Your Name" class="pay-input" />
+            
+                              <label>Phone Number</label>
+                              <input
+                                type="text"
+                                placeholder="0123-456-789"
+                                class="pay-input"
+                              />
+            
+                              <label>Address</label>
+                              <input
+                                type="text"
+                                placeholder="Your address"
+                                class="pay-input"
+                              />
+            
+                              <h1 class="pay-title">Card Information</h1>
+                              <div class="card-icons">
+                                <img src="./assets/img/visa.png" alt="" class="card-icon" />
+                                <img src="./assets/img/master.png" alt="" class="card-icon" />
+                              </div>
+            
+                              <input
+                                type="password"
+                                placeholder="Card Number"
+                                class="pay-input"
+                              />
+            
+                              <div class="card-info">
+                                <input type="text" placeholder="mm" class="pay-input sm" />
+                                <input
+                                  type="text"
+                                  placeholder="yyyy"
+                                  class="pay-input sm"
+                                />
+                                <input type="text" placeholder="cvv" class="pay-input sm" />
+                              </div>
+            
+                              <button class="pay-button">Checkout !</button>
+                              <span class="close">X</span>
+                            </div> 
+                        </div>
+                        <!-- Features item 4 -->
+                        <div class="item">
+                            <a href="">
+                                <img src="./assets/img/f-thumb-4.webp" alt="" class="thumb" />
+                            </a>
+                            <div class="body">
+                                <h3 class="title">
+                                    <a href="">Naman Retreat</a>
+                                </h3>
+                                <p class="desc">Hoà Hải, Đà Nẵng, Việt Nam</p>
+    
+                                <div class="info">
+                                    <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
+                                    <span class="label">5 Beds</span>
+    
+                                    <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
+                                    <span class="label">5 Both</span>
+    
+                                    <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
+                                    <span class="label">2000 Sqft</span>
+                                </div>
+                            </div>
+                            <div class="add-item-btn"> <button class="product-btn">RESERVATION!</button></a></div>
+                            <div class="payment">
+                              <h1 class="pay-
+                              title">Personal Information</h1>
+                              <label>Name and Surname</label>
+                              <input type="text" placeholder="Your Name" class="pay-input" />
+            
+                              <label>Phone Number</label>
+                              <input
+                                type="text"
+                                placeholder="0123-456-789"
+                                class="pay-input"
+                              />
+            
+                              <label>Address</label>
+                              <input
+                                type="text"
+                                placeholder="Your address"
+                                class="pay-input"
+                              />
+            
+                              <h1 class="pay-title">Card Information</h1>
+                              <div class="card-icons">
+                                <img src="./assets/img/visa.png" alt="" class="card-icon" />
+                                <img src="./assets/img/master.png" alt="" class="card-icon" />
+                              </div>
+            
+                              <input
+                                type="password"
+                                placeholder="Card Number"
+                                class="pay-input"
+                              />
+            
+                              <div class="card-info">
+                                <input type="text" placeholder="mm" class="pay-input sm" />
+                                <input
+                                  type="text"
+                                  placeholder="yyyy"
+                                  class="pay-input sm"
+                                />
+                                <input type="text" placeholder="cvv" class="pay-input sm" />
+                              </div>
+            
+                              <button class="pay-button">Checkout !</button>
+                              <span class="close">X</span>
+                            </div> 
+                        </div>
+                        <!-- Features item 5-->
+                        <div class="item">
+                            <a href="">
+                                <img src="./assets/img/f-thumb-5.webp" alt="" class="thumb" />
+                            </a>
+                            <div class="body">
+                                <h3 class="title">
+                                    <a href="">Sea Season Pool Villa Pattaya</a>
+                                </h3>
+                                <p class="desc">Bang Lamung, Chang Wat Chon, Thái Lan</p>
+    
+                                <div class="info">
+                                    <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
+                                    <span class="label">5 Beds</span>
+    
+                                    <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
+                                    <span class="label">5 Both</span>
+    
+                                    <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
+                                    <span class="label">2000 Sqft</span>
+                                </div>
+                            </div>
+                            <div class="add-item-btn"> <button class="product-btn">RESERVATION!</button></a></div>
+                            <div class="payment">
+                              <h1 class="pay-
+                              title">Personal Information</h1>
+                              <label>Name and Surname</label>
+                              <input type="text" placeholder="Your Name" class="pay-input" />
+            
+                              <label>Phone Number</label>
+                              <input
+                                type="text"
+                                placeholder="0123-456-789"
+                                class="pay-input"
+                              />
+            
+                              <label>Address</label>
+                              <input
+                                type="text"
+                                placeholder="Your address"
+                                class="pay-input"
+                              />
+            
+                              <h1 class="pay-title">Card Information</h1>
+                              <div class="card-icons">
+                                <img src="./assets/img/visa.png" alt="" class="card-icon" />
+                                <img src="./assets/img/master.png" alt="" class="card-icon" />
+                              </div>
+            
+                              <input
+                                type="password"
+                                placeholder="Card Number"
+                                class="pay-input"
+                              />
+            
+                              <div class="card-info">
+                                <input type="text" placeholder="mm" class="pay-input sm" />
+                                <input
+                                  type="text"
+                                  placeholder="yyyy"
+                                  class="pay-input sm"
+                                />
+                                <input type="text" placeholder="cvv" class="pay-input sm" />
+                              </div>
+            
+                              <button class="pay-button">Checkout !</button>
+                              <span class="close">X</span>
+                            </div> 
+                        </div>
+                        <!-- Features item 6 -->
+                        <div class="item">
+                            <a href="">
+                                <img src="./assets/img/f-thumb-6.webp" alt="" class="thumb" />
+                            </a>
+                            <div class="body">
+                                <h3 class="title">
+                                    <a href="">Alma Resort</a>
+                                </h3>
+                                <p class="desc">Cam Lâm, Khánh Hòa, Việt Nam</p>
+    
+                                <div class="info">
+                                    <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
+                                    <span class="label">5 Beds</span>
+    
+                                    <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
+                                    <span class="label">5 Both</span>
+    
+                                    <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
+                                    <span class="label">2000 Sqft</span>
+                                </div>
+                            </div>
+                            <div class="add-item-btn"> <button class="product-btn">RESERVATION!</button></a></div>
+                            <div class="payment">
+                              <h1 class="pay-title">Personal Information</h1>
+                              <label>Name and Surname</label>
+                              <input type="text" placeholder="Your Name" class="pay-input" />
+            
+                              <label>Phone Number</label>
+                              <input
+                                type="text"
+                                placeholder="0123-456-789"
+                                class="pay-input"
+                              />
+            
+                              <label>Address</label>
+                              <input
+                                type="text"
+                                placeholder="Your address"
+                                class="pay-input"
+                              />
+            
+                              <h1 class="pay-title">Card Information</h1>
+                              <div class="card-icons">
+                                <img src="./assets/img/visa.png" alt="" class="card-icon" />
+                                <img src="./assets/img/master.png" alt="" class="card-icon" />
+                              </div>
+            
+                              <input
+                                type="password"
+                                placeholder="Card Number"
+                                class="pay-input"
+                              />
+            
+                              <div class="card-info">
+                                <input type="text" placeholder="mm" class="pay-input sm" />
+                                <input
+                                  type="text"
+                                  placeholder="yyyy"
+                                  class="pay-input sm"
+                                />
+                                <input type="text" placeholder="cvv" class="pay-input sm" />
+                              </div>
+            
+                              <button class="pay-button">Checkout !</button>
+                              <span class="close">X</span>
+                            </div> 
+                        </div>
+                        <!-- Features item 7 -->
+                        <div class="item">
+                            <a href="">
+                                <img src="./assets/img/f-thumb-7.webp" alt="" class="thumb" />
+                            </a>
+                            <div class="body">
+                                <h3 class="title">
+                                    <a href="">Villa Sanctuary Apsara</a>
+                                </h3>
+                                <p class="desc">Tambon Bo Put, Chang Wat Surat Thani, Thái Lan</p>
+    
+                                <div class="info">
+                                    <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
+                                    <span class="label">5 Beds</span>
+    
+                                    <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
+                                    <span class="label">5 Both</span>
+    
+                                    <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
+                                    <span class="label">2000 Sqft</span>
+                                </div>
+                            </div>
+                            <div class="add-item-btn"> <button class="product-btn">RESERVATION!</button></a></div>
+                            <div class="payment">
+                              <h1 class="pay-
+                              title">Personal Information</h1>
+                              <label>Name and Surname</label>
+                              <input type="text" placeholder="Your Name" class="pay-input" />
+            
+                              <label>Phone Number</label>
+                              <input
+                                type="text"
+                                placeholder="0123-456-789"
+                                class="pay-input"
+                              />
+            
+                              <label>Address</label>
+                              <input
+                                type="text"
+                                placeholder="Your address"
+                                class="pay-input"
+                              />
+            
+                              <h1 class="pay-title">Card Information</h1>
+                              <div class="card-icons">
+                                <img src="./assets/img/visa.png" alt="" class="card-icon" />
+                                <img src="./assets/img/master.png" alt="" class="card-icon" />
+                              </div>
+            
+                              <input
+                                type="password"
+                                placeholder="Card Number"
+                                class="pay-input"
+                              />
+            
+                              <div class="card-info">
+                                <input type="text" placeholder="mm" class="pay-input sm" />
+                                <input
+                                  type="text"
+                                  placeholder="yyyy"
+                                  class="pay-input sm"
+                                />
+                                <input type="text" placeholder="cvv" class="pay-input sm" />
+                              </div>
+            
+                              <button class="pay-button">Checkout !</button>
+                              <span class="close">X</span>
+                            </div> 
+                        </div>
+                        <!-- Features item 8 -->
+                        <div class="item">
+                            <a href="">
+                                <img src="./assets/img/f-thumb-8.jpg" alt="" class="thumb" />
+                            </a>
+                            <div class="body">
+                                <h3 class="title">
+                                    <a href="">Seashore Hotel & Apartment</a>
+                                </h3>
+                                <p class="desc"> Lot 15 - 16 Hoang Sa Opposite Man Thai Beach, Đà Nẵng, Việt Nam</p>
+    
+                                <div class="info">
+                                    <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
+                                    <span class="label">5 Beds</span>
+    
+                                    <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
+                                    <span class="label">5 Both</span>
+    
+                                    <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
+                                    <span class="label">2000 Sqft</span>
+                                </div>
+                            </div>
+                            <div class="add-item-btn"> <button class="product-btn">RESERVATION!</button></a></div>
+                            <div class="payment">
+                              <h1 class="pay-
+                              title">Personal Information</h1>
+                              <label>Name and Surname</label>
+                              <input type="text" placeholder="Your Name" class="pay-input" />
+            
+                              <label>Phone Number</label>
+                              <input
+                                type="text"
+                                placeholder="0123-456-789"
+                                class="pay-input"
+                              />
+            
+                              <label>Address</label>
+                              <input
+                                type="text"
+                                placeholder="Your address"
+                                class="pay-input"
+                              />
+            
+                              <h1 class="pay-title">Card Information</h1>
+                              <div class="card-icons">
+                                <img src="./assets/img/visa.png" alt="" class="card-icon" />
+                                <img src="./assets/img/master.png" alt="" class="card-icon" />
+                              </div>
+            
+                              <input
+                                type="password"
+                                placeholder="Card Number"
+                                class="pay-input"
+                              />
+            
+                              <div class="card-info">
+                                <input type="text" placeholder="mm" class="pay-input sm" />
+                                <input
+                                  type="text"
+                                  placeholder="yyyy"
+                                  class="pay-input sm"
+                                />
+                                <input type="text" placeholder="cvv" class="pay-input sm" />
+                              </div>
+            
+                              <button class="pay-button">Checkout !</button>
+                              <span class="close">X</span>
+                            </div> 
+                        </div>
+                        <!-- Features item 9 -->
+                        <div class="item">
+                            <a href="">
+                                <img src="./assets/img/f-thumb-9.jpg" alt="" class="thumb" />
+                            </a>
+                            <div class="body">
+                                <h3 class="title">
+                                    <a href="">Bonny Boutique Hotel</a>
+                                </h3>
+                                <p class="desc">3 Khuê Mỹ Đông 10, khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng, Việt Nam</p>
+    
+                                <div class="info">
+                                    <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
+                                    <span class="label">5 Beds</span>
+    
+                                    <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
+                                    <span class="label">5 Both</span>
+    
+                                    <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
+                                    <span class="label">2000 Sqft</span>
+                                </div>
+                            </div>
+                            <div class="add-item-btn"> <button class="product-btn">RESERVATION!</button></a></div>
+                            <div class="payment">
+                              <h1 class="pay-
+                              title">Personal Information</h1>
+                              <label>Name and Surname</label>
+                              <input type="text" placeholder="Your Name" class="pay-input" />
+            
+                              <label>Phone Number</label>
+                              <input
+                                type="text"
+                                placeholder="0123-456-789"
+                                class="pay-input"
+                              />
+            
+                              <label>Address</label>
+                              <input
+                                type="text"
+                                placeholder="Your address"
+                                class="pay-input"
+                              />
+            
+                              <h1 class="pay-title">Card Information</h1>
+                              <div class="card-icons">
+                                <img src="./assets/img/visa.png" alt="" class="card-icon" />
+                                <img src="./assets/img/master.png" alt="" class="card-icon" />
+                              </div>
+            
+                              <input
+                                type="password"
+                                placeholder="Card Number"
+                                class="pay-input"
+                              />
+            
+                              <div class="card-info">
+                                <input type="text" placeholder="mm" class="pay-input sm" />
+                                <input
+                                  type="text"
+                                  placeholder="yyyy"
+                                  class="pay-input sm"
+                                />
+                                <input type="text" placeholder="cvv" class="pay-input sm" />
+                              </div>
+            
+                              <button class="pay-button">Checkout !</button>
+                              <span class="close">X</span>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- Footer -->
+         
+            </div>
+        
+            <footer class="footer">
+                <div class="content">
+                  <div class="row row-top">
+                    <div class="column">
+                      <h3 class="heading">Product</h3>
+                      <ul class="list">
+                        <li class="item">
+                          <a href="">Listing</a>
+                        </li>
+                        <li class="item">
+                          <a href="">Property</a>
+                        </li>
+                        <li class="item">
+                          <a href="">Agents</a>
+                        </li>
+                        <li class="item">
+                          <a href="">Blog</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="column">
+                      <h3 class="heading">Resources</h3>
+                      <ul class="list">
+                        <li class="item">
+                          <a href="">Our Homes</a>
+                        </li>
+                        <li class="item">
+                          <a href="">Member Stories</a>
+                        </li>
+                        <li class="item">
+                          <a href="">Video</a>
+                        </li>
+                        <li class="item">
+                          <a href="">Free trial</a>
+                        </li>
+                      </ul>
+                    </div>
+        
+                    <div class="column">
+                      <h3 class="heading">Company</h3>
+                      <ul class="list">
+                        <li class="item">
+                          <a href="">Patnerships</a>
+                        </li>
+                        <li class="item">
+                          <a href="">Terms of use</a>
+                        </li>
+                        <li class="item">
+                          <a href="">Privacy</a>
+                        </li>
+                        <li class="item">
+                          <a href="">Sitemap</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="column">
+                      <h3 class="heading">Get in touch</h3>
+                      <p class="desc">
+                        You’ll find your next home, in any style you prefer.
+                      </p>
+                      <div class="social">
+                        <a href="" class="social-link">
+                          <img src="./assets/img/social-1.svg" alt="" />
+                        </a>
+                        <a href="" class="social-link">
+                          <img src="./assets/img/social-2.svg" alt="" />
+                        </a>
+                        <a href="" class="social-link">
+                          <img src="./assets/img/social-3.svg" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row row-bottom">
+                    <img src="./assets/img/Logo.svg" alt="" class="logo" />
+                    <p class="copyright">Copyright 2023.com, All rights reserved.</p>
+                  </div>
                 </div>
-                <div class="list">
-                    <!-- Features item 1 -->
-                    <div class="item">
-                        <a href="">
-                            <img src="./assets/img/f-thumb-1" alt="" class="thumb" />
-                        </a>
-                        <div class="body">
-                            <h3 class="title">
-                                <a href="">Villa Callisto- Ocean Front Retreat</a>
-                            </h3>
-                            <p class="desc">Tambon Bo Put, Thái Lan</p>
-
-                            <div class="info">
-                                <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
-                                <span class="label">5 Beds</span>
-
-                                <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
-                                <span class="label">2 both</span>
-
-                                <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
-                                <span class="label">2000 Sqft</span>
-                            </div>
-                        </div>
-                        <div class="add-item-btn"><a href="#" class="btn">Xem chi tiết</a></div>
-                        
-                    </div>
-                    <!-- Features item 2 -->
-                    <div class="item">
-                        <a href=""><img src="./assets/img/f-thumb-2.webp" alt="" class="thumb" /></a>
-                        <div class="body">
-                            <h3 class="title">
-                                <a href="">Riverfront Alan Sea Hotel DaNang</a>
-                            </h3>
-                            <p class="desc">Mân Thái, Đà Nẵng, Việt Nam</p>
-
-                            <div class="info">
-                                <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
-                                <span class="label">5 Beds</span>
-
-                                <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
-                                <span class="label">2 both</span>
-
-                                <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
-                                <span class="label">2000 Sqft</span>
-                            </div>
-                        </div>
-                        <div class="add-item-btn"><a href="#" class="btn">Xem chi tiết</a></div>
-                    </div>
-                    <!-- Features item 3 -->
-                    <div class="item">
-                        <a href="">
-                            <img src="./assets/img/f-thumb-3" alt="" class="thumb" />
-                        </a>
-                        <div class="body">
-                            <h3 class="title">
-                                <a href="">Beachfront Bungalows Restaurant</a>
-                            </h3>
-                            <p class="desc">Koh Chang Tai, Trat, Thái Lan</p>
-
-                            <div class="info">
-                                <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
-                                <span class="label">5 Beds</span>
-
-                                <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
-                                <span class="label">5 Both</span>
-
-                                <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
-                                <span class="label">2000 Sqft</span>
-                            </div>
-                        </div>
-                        <div class="add-item-btn"><a href="#" class="btn">Xem chi tiết</a></div>
-                    </div>
-                    <!-- Features item 4 -->
-                    <div class="item">
-                        <a href="">
-                            <img src="./assets/img/f-thumb-4.webp" alt="" class="thumb" />
-                        </a>
-                        <div class="body">
-                            <h3 class="title">
-                                <a href="">Naman Retreat</a>
-                            </h3>
-                            <p class="desc">Hoà Hải, Đà Nẵng, Việt Nam</p>
-
-                            <div class="info">
-                                <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
-                                <span class="label">5 Beds</span>
-
-                                <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
-                                <span class="label">5 Both</span>
-
-                                <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
-                                <span class="label">2000 Sqft</span>
-                            </div>
-                        </div>
-                        <div class="add-item-btn"><a href="#" class="btn">Xem chi tiết</a></div>
-                    </div>
-                    <!-- Features item 5-->
-                    <div class="item">
-                        <a href="">
-                            <img src="./assets/img/f-thumb-5.webp" alt="" class="thumb" />
-                        </a>
-                        <div class="body">
-                            <h3 class="title">
-                                <a href="">Sea Season Pool Villa Pattaya</a>
-                            </h3>
-                            <p class="desc">Bang Lamung, Chang Wat Chon, Thái Lan</p>
-
-                            <div class="info">
-                                <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
-                                <span class="label">5 Beds</span>
-
-                                <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
-                                <span class="label">5 Both</span>
-
-                                <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
-                                <span class="label">2000 Sqft</span>
-                            </div>
-                        </div>
-                        <div class="add-item-btn"><a href="#" class="btn">Xem chi tiết</a></div>
-                    </div>
-                    <!-- Features item 6 -->
-                    <div class="item">
-                        <a href="">
-                            <img src="./assets/img/f-thumb-6.webp" alt="" class="thumb" />
-                        </a>
-                        <div class="body">
-                            <h3 class="title">
-                                <a href="">Alma Resort</a>
-                            </h3>
-                            <p class="desc">Cam Lâm, Khánh Hòa, Việt Nam</p>
-
-                            <div class="info">
-                                <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
-                                <span class="label">5 Beds</span>
-
-                                <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
-                                <span class="label">5 Both</span>
-
-                                <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
-                                <span class="label">2000 Sqft</span>
-                            </div>
-                        </div>
-                        <div class="add-item-btn"><a href="#" class="btn">Xem chi tiết</a></div>
-                    </div>
-                    <!-- Features item 7 -->
-                    <div class="item">
-                        <a href="">
-                            <img src="./assets/img/f-thumb-7.webp" alt="" class="thumb" />
-                        </a>
-                        <div class="body">
-                            <h3 class="title">
-                                <a href="">Villa Sanctuary Apsara</a>
-                            </h3>
-                            <p class="desc">Tambon Bo Put, Chang Wat Surat Thani, Thái Lan</p>
-
-                            <div class="info">
-                                <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
-                                <span class="label">5 Beds</span>
-
-                                <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
-                                <span class="label">5 Both</span>
-
-                                <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
-                                <span class="label">2000 Sqft</span>
-                            </div>
-                        </div>
-                        <div class="add-item-btn"><a href="#" class="btn">Xem chi tiết</a></div>
-                    </div>
-                    <!-- Features item 8 -->
-                    <div class="item">
-                        <a href="">
-                            <img src="./assets/img/f-thumb-8.jpg" alt="" class="thumb" />
-                        </a>
-                        <div class="body">
-                            <h3 class="title">
-                                <a href="">Seashore Hotel & Apartment</a>
-                            </h3>
-                            <p class="desc"> Lot 15 - 16 Hoang Sa Opposite Man Thai Beach, Đà Nẵng, Việt Nam</p>
-
-                            <div class="info">
-                                <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
-                                <span class="label">5 Beds</span>
-
-                                <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
-                                <span class="label">5 Both</span>
-
-                                <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
-                                <span class="label">2000 Sqft</span>
-                            </div>
-                        </div>
-                        <div class="add-item-btn"><a href="#" class="btn">Xem chi tiết</a></div>
-                    </div>
-                    <!-- Features item 9 -->
-                    <div class="item">
-                        <a href="">
-                            <img src="./assets/img/f-thumb-9.jpg" alt="" class="thumb" />
-                        </a>
-                        <div class="body">
-                            <h3 class="title">
-                                <a href="">Bonny Boutique Hotel</a>
-                            </h3>
-                            <p class="desc">3 Khuê Mỹ Đông 10, khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng, Việt Nam</p>
-
-                            <div class="info">
-                                <img src="./assets/img/f-icon-1.svg" alt="" class="icon" />
-                                <span class="label">5 Beds</span>
-
-                                <img src="./assets/img/f-icon-2.svg" alt="" class="icon" />
-                                <span class="label">5 Both</span>
-
-                                <img src="./assets/img/f-icon-3.svg" alt="" class="icon" />
-                                <span class="label">2000 Sqft</span>
-                            </div>
-                        </div>
-                        <div class="add-item-btn"><a href="#" class="btn">Xem chi tiết</a></div>
-                    </div>
-                </div>
-        </div>
+              </footer>
+        
+    </main>
+    
+        
+        <!-- Swiperjs File Link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="./assets/js/btn-js.js"></script>
 </body>
 
 </html>
