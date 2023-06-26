@@ -528,7 +528,9 @@ a {
 .subscription .image {
   position: absolute;
   bottom: 0;
-  right: 221px;
+  right: 105px;
+  border-radius: 12px;
+  height: 370px;
 }
 /* ========Footer========= */
 .footer {
